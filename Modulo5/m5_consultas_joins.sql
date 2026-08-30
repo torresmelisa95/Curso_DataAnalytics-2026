@@ -1,4 +1,4 @@
------- SECCIÓN DDL
+------ SECCIÓN DDL ------
 USE master;  -- nos paramos en master para poder borrar Ventas_Tech_DB sin que la conexión esté "en uso"
 GO
 
@@ -70,7 +70,7 @@ CREATE TABLE ventas (
 que me interesan para responder a mis preguntas de negocio, las voy a generar en el SELECT de la consulta para no guardar datos desactualizados */
 
 
------- SECCIÓN DML
+------ SECCIÓN DML ------
 INSERT INTO categorias VALUES (1, 'Computación', 'Laptops, PCs y monitores');
 INSERT INTO categorias VALUES (2, 'Accesorios', 'Periféricos y complementos');
 INSERT INTO categorias VALUES (3, 'Audio', 'Auriculares y parlantes');
